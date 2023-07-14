@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.header__nav{
+    max-width: 1400px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header__nav > .header__nav--img{
+    width: 50px;
+}
+.header__nav--list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.header__nav >.header__nav--button{
+        margin-left: 60%;
+        padding-bottom:0px;
+        border: 0;
+        border-radius: 5px;
+        background-color: #0fdb6b;
+        color: #000;
+        font-weight: bold;
+
+}
+.header__nav--list a{
+    
+    text-decoration: none;
+        padding-right: 50px;
+        color: #000
+}
+.header__nav--list a:hover{
+    color: #00ee7f;
+        font-weight: bold;
+}
+.Hero__container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 30px;
+}
+.Text--section{
+    padding: 0px 50px;
+}
+.Text--section >h1{
+    color: #000;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.Text--section >p{
+    opacity: 70%;
+}
+.Text--section >button{
+    padding: 10px 22px;
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    font-size: large;
+}
+.Image--section{
+    
+    background-color: yellow;
+    height: 100%;
+    max-height: 90vh;
+}
+.Image--section >img{
+    width: 70%;
+    height: 100%;
+}
+
+/* Css for section--features */
+.section__feature{
+    max-width: 1400px;
+    margin: 20px;
+    background-color: #2b1e16;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+.feature{
+    text-align: center;
+    padding: 10px 60px;
+    
+}
+.feature img{
+    width: 150px;
+}
+.feature h1{
+   margin-bottom: 20px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.feature3 >h1{
+    margin-top: 50px;
+}
+.feature p{
+    color: #8c6e54;
+}
